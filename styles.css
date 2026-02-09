@@ -6,34 +6,32 @@
 
     body {
       font-family: "Space Grotesk", sans-serif;
-      background-color: #111111;
-      color: #e7e7e7;
+      background-color: #0e0e0e;
+      color: #e5e5e5;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
 
     .container {
       min-height: 100vh;
-      max-width: 760px;
+      max-width: 720px;
       margin: 0 auto;
-      padding: 100px 24px 80px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      padding: 80px 20px;
+      
     }
 
     /* HERO */
     .hero h1 {
       font-size: clamp(3rem, 8vw, 5.5rem);
       font-weight: 500;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.06em;
     }
 
     .hero h2 {
       margin-top: 18px;
       font-size: 1.2rem;
       font-weight: 300;
-      letter-spacing: 0.18em;
+      letter-spacing: 0.04em;
       opacity: 0.6;
       text-transform: lowercase;
     }
@@ -41,9 +39,10 @@
     .hero p {
       margin-top: 36px;
       max-width: 520px;
-      font-size: 1.25rem;
+      font-size: 1.7rem;
       line-height: 1.7;
       opacity: 0.85;
+      letter-spacing: 0.02em;
     }
 
     /* SECTIONS */
