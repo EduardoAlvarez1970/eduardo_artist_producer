@@ -53,7 +53,7 @@
       letter-spacing: 0.22em;
       text-transform: uppercase;
       opacity: 0.45;
-      margin-bottom: 22px;
+      margin-bottom: 16px;
     }
 
     section p {
@@ -98,8 +98,8 @@
     /* CONTACT */
     .contact-links {
       display: flex;
-      flex-wrap: wrap;
-      gap: 18px;
+      flex-direction: column;
+      gap: 14px;
       margin-top: 10px;
     }
 
@@ -109,11 +109,17 @@
       font-size: 0.95rem;
       letter-spacing: 0.12em;
       opacity: 0.85;
-      transition: opacity 0.2s ease;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      display: inline-block;
     }
 
     .contact-links a:hover {
       opacity: 1;
+      transform: translateX(6px);
+    }
+
+    .listen {
+      margin-bottom: 8px;
     }
 
     /* FOOTER */
