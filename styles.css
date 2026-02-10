@@ -1,60 +1,58 @@
 * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-    body {
-      font-family: "Space Grotesk", sans-serif;
-      line-height: 1.5;
-      background-color: #0e0e0e;
-      color: #e5e5e5;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
+body {
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.5;
+  background-color: #0e0e0e;
+  color: #e5e5e5;
+}
 
-    .container {
-      min-height: 100vh;
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 80px 20px;
-      
-    }
+/* CONTENEDOR */
+.container {
+  min-height: 100vh;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
 
-    /* HERO */
-    .hero h1 {
-      font-size: clamp(3rem, 8vw, 5.5rem);
-      font-weight: 500;
-      letter-spacing: 0.06em;
-    }
+/* HERO */
+h1 {
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-size: clamp(3rem, 8vw, 5rem);
+}
 
-    .hero h2 {
-      margin-top: 18px;
-      font-weight: 300;
-      letter-spacing: 0.04em;
-      opacity: 0.7;
-      text-transform: lowercase;
-    }
+h2 {
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  opacity: 0.7;
+  text-transform: lowercase;
+}
 
-    .hero p {
-      margin-top: 36px;
-      font-size: clamp(1.1rem, 2.5vw, 1.7rem);
-      font-weight: 300;
-      letter-spacing: 0.02em;
-    }
+p {
+  margin-top: 40px;
+  font-size: clamp(1.1rem, 2.5vw, 1.7rem);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
 
-    /* SECTIONS */
-    section {
-      margin-top: 90px;
-    }
-
-    section h3 {
-      font-size: 0.9rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      opacity: 0.45;
-      margin-bottom: 16px;
-    }
+/* ABOUT */
+section {
+  margin-top: 90px;
+}
+    
+section h3 {
+  font-size: 0.9rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  opacity: 0.45;
+  margin-bottom: 22px;
+}
 
     section p {
       max-width: 560px;
@@ -62,6 +60,17 @@
       line-height: 1.75;
       opacity: 0.9;
     }
+
+    hr {
+  border: none;
+  border-top: 1px solid #2a2a2a;
+  margin: 80px 0;
+}
+
+
+
+
+
 
     /* PLATFORMS */
     .platforms {
