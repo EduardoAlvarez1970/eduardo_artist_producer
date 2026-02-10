@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.5;
+  background-color: #0e0e0e;
+  color: #e5e5e5;
+}
+
+/* CONTENEDOR */
+.container {
+  min-height: 100vh;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+/* HERO */
+h1 {
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-size: clamp(3rem, 8vw, 5rem);
+}
+
+h2 {
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  opacity: 0.7;
+  text-transform: lowercase;
+}
+
+p {
+  margin-top: 40px;
+  font-size: clamp(1.1rem, 2.5vw, 1.7rem);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+/* ABOUT */
+section {
+  margin-top: 90px;
+}
+    
+section h3 {
+  font-size: 0.9rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  opacity: 0.45;
+  margin-bottom: 22px;
+}
+
+section p {
+  max-width: 560px;
+  font-size: 1.1rem;
+  line-height: 1.75;
+  opacity: 0.9;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #2a2a2a;
+  margin: 80px 0;
+}
+
+/* PLATFORMS */
+.platforms {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.platform {
+  display: block;
+  text-decoration: none;
+  color: #e7e7e7;
+  padding: 18px 0;
+  border-bottom: 1px solid #2a2a2a;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.platform:hover {
+  opacity: 1;
+  transform: translateX(6px);
+}
+
+.platform-title {
+  font-size: 1.2rem;
+  letter-spacing: 0.08em;
+}
+
+.platform-desc {
+  margin-top: 6px;
+  font-size: 0.95rem;
+  opacity: 0.6;
+}
+
+/* LINKS */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #c9b8a6;
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.contact-links a:hover {
+  opacity: 1;
+  transform: translateX(6px);
+}
+
+.listen {
+  margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 120px;
+  font-size: 0.8rem;
+  opacity: 0.35;
+  letter-spacing: 0.12em;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .container {
+    padding: 80px 20px 60px;
+  }
+  section {
+    margin-top: 70px;
+  }
+  footer {
+    margin-top: 90px;
+  }
+}
